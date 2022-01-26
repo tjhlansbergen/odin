@@ -1,0 +1,29 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100%;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer,
+header {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
